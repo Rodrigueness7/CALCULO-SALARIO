@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Salário</title>
+    <link href="style.css" rel="stylesheet">
+<body>
+  <div class="container">
+   <h1 class="title">Salário</h1> 
+   <form>
+    <input id="nome" type="name" name="name" placeholder="NOME DO FUNCIONÁRIO">
+    <input id="fixo" type="number" name="number" placeholder="SALÁRIO FIXO">
+    <input id="appLoja" type="number" name="number" placeholder="APP LOJA">
+    <input id="appSetor" type="number" name="number" placeholder="APP SETOR">
+    <input id="vale" type="number" name="number" placeholder="VALE">
+    <input id="fgts" type="number" name="number" placeholder="FGTS">
+    <input id="checkboxVale" type="checkbox">VALE
+    <input id="checkboxFgts" type="checkbox">FGTS
+   </form>   
+   <button onclick="calcular()">Calcular</button>
+   <div id="resultado">
+
+   </div>
+  </div>  
+   <script src="script.js"></script>
+</body>
+</html>
